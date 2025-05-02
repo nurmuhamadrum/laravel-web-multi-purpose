@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Function to trigger date selection from the hidden input
     function triggerDateSelection() {
-        dateInput.showPicker();
         console.log("input clicked");
+        dateInput.showPicker();
     }
     
     // Function to update button text with selected date value
